@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ClipForge</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 class="main-title">ClipForge Video Maker</h1>
+
+    <!-- Title -->
+    <div class="input-group">
+      <label for="title">Title</label>
+      <textarea id="title" class="input-box" rows="1"></textarea>
+    </div>
+
+    <!-- Detail Prompt -->
+    <div class="input-group">
+      <label for="detail_promt">Detail (Describe your video)</label>
+      <textarea id="detail_promt" class="input-box" rows="4"></textarea>
+    </div>
+
+    <!-- Buttons -->
+    <button id="send" class="btn-primary">Generate Video</button>
+    <button id="download" class="btn-secondary" style="display:none;">Download Video</button>
+
+    <!-- Preview / Status -->
+    <div id="preview" class="preview-box"></div>
+
+    <!-- Canvas (hidden, used only for recording) -->
+    <canvas id="canvas" class="canvas" style="display:none;"></canvas>
+
+    <!-- Status / URL -->
+    <div id="video_url" class="status-box"></div>
+
+    <footer>
+      <p>&copy; 2026 ClipForge. All rights reserved.</p>
+      <a href="privacy.html" class="privacy">Privacy policy</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
