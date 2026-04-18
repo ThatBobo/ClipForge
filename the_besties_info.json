@@ -1,0 +1,124 @@
+{
+  "group_name": "The Besties",
+  "description": "Welcome to The Besties — a group of lifelong friends sharing our chaos, calm moments, challenges, stories, and everything in between.",
+  "members": {
+    "AbdulSamad": {
+      "birthday": "December 3rd",
+      "age": 8,
+      "hobbies": ["Making websites just for fun"],
+      "favourite_things_to_do": [
+        "Learning to code CSS and JavaScript",
+        "Playing games (video games or not)",
+        "Eating",
+        "Drinking a lot of water many times"
+      ],
+      "favourite_songs": [
+        {
+          "title": "Golden",
+          "artist": "Huntrix",
+          "version": "Original"
+        },
+        {
+          "title": "Takedown",
+          "artist": "Huntrix",
+          "version": "Original"
+        },
+        {
+          "title": "This Is What It Sounds Like",
+          "artist": "Huntrix",
+          "version": "Original"
+        },
+        {
+          "title": "Ordinary",
+          "artist": "Kidz Bop Kids",
+          "original_artist": "Alex Warren",
+          "version": "Kidz Bop Cover"
+        }
+      ],
+      "fears": [
+        "Scared of the dark",
+        "Scared of heights"
+      ],
+      "favourite_colour": "Blue",
+      "favourite_food": "Domino's cheese pizza (only likes the cheese they use on pizza)",
+      "favourite_animal": "Brown monkeys",
+      "favourite_fruits": ["Strawberry", "Banana"],
+      "favourite_drink": "Coca-Cola or Pepsi",
+      "favourite_game": "Hide and Seek"
+    },
+
+    "Karen": {
+      "birthday": "???",
+      "age": 8,
+      "favourite_things_to_do": ["Playing games"],
+      "role": "The organizer who prevents disasters",
+      "isabsent": true
+    },
+
+    "Aleksandra": {
+      "role": "The smart, steady voice of reason",
+      "age": 9,
+      "hobbies": ["Reading", "Drawing", "Organizing things"],
+      "favourite_colour": "Purple",
+      "favourite_food": "Pasta",
+      "fears": ["Messy rooms", "Losing her notebook"]
+    },
+
+    "Zoey": {
+      "role": "The creative chaos engine",
+      "age": 8,
+      "hobbies": ["Making crafts", "Painting", "Inventing weird ideas"],
+      "favourite_colour": "Pink",
+      "favourite_food": "Cupcakes",
+      "fears": ["Running out of glitter", "Boredom"]
+    },
+
+    "Cash": {
+      "role": "The loud one",
+      "age": 9,
+      "hobbies": ["Singing loudly", "Dancing", "Making jokes"],
+      "favourite_colour": "Red",
+      "favourite_food": "Burgers",
+      "fears": ["Silence", "Being ignored"]
+    },
+
+    "Aiden": {
+      "role": "The engineer who overthinks everything",
+      "age": 10,
+      "hobbies": ["Building things", "Coding", "Fixing stuff"],
+      "favourite_colour": "Green",
+      "favourite_food": "Mac and cheese",
+      "fears": ["Breaking something important", "Complicated instructions"]
+    },
+
+    "Alicia": {
+      "role": "The caring one who keeps everyone alive",
+      "age": 9,
+      "hobbies": ["Helping others", "Writing lists", "Keeping things tidy"],
+      "favourite_colour": "Light blue",
+      "favourite_food": "Fruit salad",
+      "fears": ["Chaos", "Losing track of things"]
+    },
+
+    "Nico": {
+      "role": "The anxious cinnamon roll",
+      "age": 8,
+      "hobbies": ["Watching videos", "Collecting stickers", "Hiding under blankets"],
+      "favourite_colour": "Blue",
+      "favourite_food": "Chicken nuggets",
+      "fears": ["Loud noises", "Surprises"]
+    }
+  },
+
+  "expect": [
+    "Challenges",
+    "Vlogs",
+    "Tech stuff",
+    "Storytimes",
+    "Fails",
+    "Wins",
+    "And a lot of friendship"
+  ],
+
+  "message": "We’re The Besties, and you’re part of the family now."
+}
