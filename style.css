@@ -1,0 +1,128 @@
+/* ================================
+   ClipForge — Zoey's Updated CSS
+   ================================ */
+
+/* Base page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1020;
+  font-family: Arial, sans-serif;
+  color: #f5f5ff;
+}
+
+/* Main title */
+.main-title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Input groups */
+.input-group {
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #2a2d4a;
+  background-color: #141528;
+  color: #f5f5ff;
+  resize: vertical;
+}
+
+/* Primary button */
+.btn-primary {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #2563eb;
+  color: #f5f5ff;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.03);
+}
+
+/* Secondary button */
+.btn-secondary {
+  display: block;
+  margin: 15px auto;
+  padding: 12px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #10b981;
+  color: #f5f5ff;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+}
+
+/* Video preview */
+.video-preview {
+  display: block;
+  margin: 25px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 6px;
+  border: 2px solid #2a2d4a;
+  background-color: #050816;
+}
+
+/* Hidden canvas (used only for recording) */
+.canvas {
+  display: none;
+}
+
+/* Status / URL box */
+.status-box {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #181a30;
+  border-top: 1px solid #2a2d4a;
+}
+
+footer a {
+  color: #7dd3fc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
